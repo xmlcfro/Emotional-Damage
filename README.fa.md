@@ -4,7 +4,9 @@
   <br><img src="https://github.com/NiREvil/Emotional-Damage/assets/126243832/66c9bdfb-9e74-4a91-a7d3-9a180450c690" width="320px">
 </p>
 
-[![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/zizifn/edgetunnel)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+###### با تشکر فراوان از عزیز 3KmFi6HP
+
+[![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/3Kmfi6HP/EDtunnel)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## فهرست مطالب
 
@@ -22,7 +24,7 @@
 
 1.  ویدیوی یوتیوب را ببینید:
 
-    <https://www.youtube.com/watch?v=8I-yTNHB0aw>
+    [youtube.com/watch](https://www.youtube.com/watch?v=8I-yTNHB0aw)
 
 2.  این استقرار مخزن را در صفحات cloudflare کلون کنید.
 
@@ -70,7 +72,7 @@
 2.  بازدید کنید`https://edtunnel.pages.dev/sub/uuid your set`برای دریافت محتوای اشتراک با`uuid your set`مسیر.
 
     توجه داشته باشید:`uuid your set`uuid است که در محیط UUID یا تنظیم کرده اید`wrangler.toml`,`_worker.js`فایل.
-    وقتی چند uuid را تنظیم می کنید، می توانید استفاده کنید`https://edtunnel.pages.dev/sub/uuid1`برای دریافت محتوای اشتراک با`uuid1`مسیر. (فقط اولین uuid در مجموعه uuid چندگانه پشتیبانی می شود)
+    وقتی چند uuid را تنظیم می کنید، می توانید استفاده کنید`https://edtunnel.pages.dev/sub/uuid1`برای دریافت محتوای اشتراک با`uuid1`مسیر. (فقط از اولین uuid در مجموعه uuid چندگانه پشتیبانی می کند)
 
 3.  بازدید کنید`https://edtunnel.pages.dev/sub/uuid your set/?format=clash`برای دریافت محتوای اشتراک با`uuid your set`مسیر و`clash`قالب محتوا با کد base64 باز خواهد گشت.
 
@@ -81,9 +83,9 @@
 
 1.  بازدید کنید`https://edtunnel.pages.dev/bestip/uuid your set`برای دریافت اطلاعات اشتراک
 
-2.  لینک آدرس cpoy اشتراک`https://edtunnel.pages.dev/bestip/uuid your set`به هر کلاینت (clash/v2rayN/v2rayNG) که می خواهید استفاده کنید.
+2.  لینک url اشتراک cpoy`https://edtunnel.pages.dev/bestip/uuid your set`به هر کلاینت (clash/v2rayN/v2rayNG) که می خواهید استفاده کنید.
 
-3.  انجام شده. اگر سوالی دارید لطفا بپیوندید[@edtunnel](https://t.me/edtunnel)
+3.  انجام شده. اگر سوالی دارید لطفا بپیوندید[@edtunnel](https://t.me/edtunnel)یا[@F_NiREvil](https://t.me/F_NiREvil)
 
 ## پشتیبانی از چند پورت (اختیاری)
 
@@ -108,7 +110,7 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 
 2.  هنگام استقرار در worker.dev، می توانید پروکسی IP را در آن تنظیم کنید`_worker.js`فایل. نام متغیر است`proxyIP`.
 
-![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)نحوه پیدا کردن پروکسی[(منبع)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)توجه داشته باشید:`proxyIP`آی پی یا دامنه ای است که می خواهید تنظیم کنید. این بدان معنی است که پروکسی IP برای هدایت ترافیک از طریق یک پروکسی به جای مستقیم به وب سایتی که از Cloudflare (CDN) استفاده می کند، استفاده می شود. اگر این متغیر را تنظیم نکنید، اتصال به IP Cloudflare لغو (یا مسدود می شود)...
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)نحوه پیدا کردن پروکسی[(منبع)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)توجه داشته باشید:`proxyIP`آی پی یا دامنه ای است که می خواهید تنظیم کنید. این بدان معنی است که پروکسی IP برای هدایت ترافیک از طریق یک پروکسی به جای مستقیم به وب سایتی که از Cloudflare (CDN) استفاده می کند استفاده می شود. اگر این متغیر را تنظیم نکنید، اتصال به IP Cloudflare لغو (یا مسدود می شود)...
 
 دلایل: سوکت های خروجی TCP به محدوده IP Cloudflare به طور موقت مسدود شده اند، لطفاً به[اسناد tcp-sockets](https://developers.cloudflare.com/workers/runtime-apis/tcp-sockets/#considerations)
 
@@ -116,3 +118,5 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 
 ابتدا دامنه pages.dev خود را باز کنید`https://edtunnel.pages.dev/`در مرورگر خود می توانید صفحه زیر را مشاهده کنید:
 مسیر`/uuid your seetting`برای دریافت پیوند clash config و vless://.
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)وام:[آن را استریل کنید](https://github.com/3Kmfi6HP/EDtunnel)&[zizifn](https://github.com/zizifn/edgetunnel)
