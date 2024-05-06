@@ -1,28 +1,23 @@
 # EDtunnel
 
-<p align="center">
-  <img src="https://cloudflare-ipfs.com/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky" alt="edgetunnel" style="margin-bottom: -50px;">
+<p align="left">
+  <br><img src="https://github.com/NiREvil/Emotional-Damage/assets/126243832/66c9bdfb-9e74-4a91-a7d3-9a180450c690" width="320px">
 </p>
 
-GitHub Repository for [https://github.com/zizifn/edgetunnel](https://github.com/zizifn/edgetunnel)
-
-ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 [![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/zizifn/edgetunnel)
-
-## available branches and explain
-
-| Branch Name   | Description                                                   |
-| ------------- | ------------------------------------------------------------- |
-| remote-socks5 | Branch for remote SOCKS5 proxy pool used implementation       |
-| socks5        | Branch for SOCKS5 proxyIP implementation                      |
-| vless         | Branch for outbound VLESS protocol implementation             |
-| vless2        | Branch for alternative outbound VLESS protocol implementation |
-| code1         | Branch for code1 feature development                          |
-| code2         | Branch for code2 alternative feature development              |
-| dns           | Branch for DNS alternative related development                |
-| main          | Main branch for the project                                   |
-| pages         | New version for deployment on Cloudflare Pages                |
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+## Table of Contents
+- [Deploy in pages.dev](#Deploy-in-pages.dev)
+- [Deploy in worker.dev](#Deploy-in-worker.dev)
+- [Lazy to deploy](#Lazy-to-deploy)
+- [UUID SettingL](#UUID-Setting)
+  - [UUID Setting Example](#UUID-Setting-Example)
+- [subscribe vless link](#subscribe-vless-link)
+- [subscribe Cloudflare bestip](#subscribe-Cloudflare-bestip)
+- [multiple port support](#multiple-port-support)
+- [proxyIP](#proxyIP)
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## Deploy in pages.dev
 
@@ -38,13 +33,13 @@ ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 2. Alternatively, you can click the button below to deploy directly.
 
-   [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/3Kmfi6HP/EDtunnel)
+   [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Emotional-Damage)
 
 ## Lazy to deploy
 
 `aHR0cHM6Ly9vc3MudjJyYXlzZS5jb20vcHJveGllcy9kYXRhLzIwMjMtMDctMzAvRnJFS1lvQS50eHQ=` (free clash.meta subscribe config)
 
-## UUID Setting (Optional)
+## UUID Setting
 
 1. When deploy in cloudflare pages, you can set uuid in `wrangler.toml` file. variable name is `UUID`. `wrangler.toml` file is also supported. (recommended) in case deploy in webpages, you can not set uuid in `wrangler.toml` file.
 
@@ -114,6 +109,11 @@ if you deploy in cloudflare pages, https port is not supported. Simply add multi
 
 2. When deploy in worker.dev, you can set proxyIP in `_worker.js` file. variable name is `proxyIP`.
 
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+How to find proxyip [(SOURCE)](https://github.com/NiREvil/vless/edit/main/sub/ProxyIP.md)
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 note: `proxyIP` is the ip or domain you want to set. this means that the proxyIP is used to route traffic through a proxy rather than directly to a website that is using Cloudflare's (CDN). if you don't set this variable, connection to the Cloudflare IP will be cancelled (or blocked)...
 
 resons: Outbound TCP sockets to Cloudflare IP ranges are temporarily blocked, please refer to the [tcp-sockets documentation](https://developers.cloudflare.com/workers/runtime-apis/tcp-sockets/#considerations)
@@ -122,13 +122,3 @@ resons: Outbound TCP sockets to Cloudflare IP ranges are temporarily blocked, pl
 
 frist, open your pages.dev domain `https://edtunnel.pages.dev/` in your browser, then you can see the following page:
 The path `/uuid your seetting` to get the clash config and vless:// link.
-
-## Star History
-
-<a href="https://star-history.com/#3Kmfi6HP/EDtunnel&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=3Kmfi6HP/EDtunnel&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=3Kmfi6HP/EDtunnel&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=3Kmfi6HP/EDtunnel&type=Date" />
-  </picture>
-</a>
