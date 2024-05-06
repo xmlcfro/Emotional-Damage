@@ -11,12 +11,12 @@
 -   [استقرار در pages.dev](#Deploy-in-pages.dev)
 -   [استقرار در worker.dev](#Deploy-in-worker.dev)
 -   [تنبلی برای استقرار](#Lazy-to-deploy)
--   [تنظیمات UUIDL](#UUID-Setting)
+-   [تنظیمات UUID](#UUID-Setting)
     -   [مثال تنظیم UUID](#UUID-Setting-Example)
--   [اشتراک vless لینک](#subscribe-vless-link)
--   [مشترک شدن در Cloudflare bestip](#subscribe-Cloudflare-bestip)
--   [پشتیبانی از چند پورت](#multiple-port-support)
--   [آی پی پروکسی](#proxyIP)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+-   [اشتراک vless لینک](#Subscribe-vless-link)
+-   [مشترک شدن Cloudflare bestip](#Subscribe-Cloudflare-bestip)
+-   [پشتیبانی از چند پورت](#Multiple-port-support)
+-   [آی پی پروکسی](#ProxyIP)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## استقرار در pages.dev
 
@@ -77,7 +77,7 @@
     توجه داشته باشید:`uuid your set`uuid است که در محیط UUID یا تنظیم کرده اید`wrangler.toml`,`_worker.js`فایل.
     وقتی چند uuid را تنظیم می کنید، می توانید از آن استفاده کنید`https://edtunnel.pages.dev/sub/uuid1/?format=clash`برای دریافت محتوای اشتراک با`uuid1`مسیر و`clash`قالب. (فقط از اولین uuid در مجموعه uuid چندگانه پشتیبانی می کند)
 
-## مشترک شدن پیوند Cloudflare bestip (IP خالص).
+## پیوند Cloudflare bestip (IP خالص) مشترک شوید
 
 1.  بازدید کنید`https://edtunnel.pages.dev/bestip/uuid your set`برای دریافت اطلاعات اشتراک
 
@@ -102,7 +102,7 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 
 اگر در صفحات cloudflare مستقر می شوید، پورت https پشتیبانی نمی شود. به سادگی چندین پورت را اضافه کنید و از لینک اشتراک استفاده کنید، محتوای اشتراک همه پورت های پشتیبانی شده از Cloudflare را برمی گرداند.
 
-## پروکسی IP (اختیاری)
+## ProxyIP (اختیاری)
 
 1.  هنگام استقرار در صفحات cloudflare، می توانید پروکسی IP را در آن تنظیم کنید`wrangler.toml`فایل. نام متغیر است`PROXYIP`.
 
