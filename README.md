@@ -5,7 +5,8 @@
 </p>
 
 
-[![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/zizifn/edgetunnel)
+###### Huge thanks to Dear 3KmFi6HP
+[![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/3Kmfi6HP/EDtunnel)
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 ## Table of Contents
 - [Deploy in pages.dev](#Deploy-in-pages.dev)
@@ -23,7 +24,7 @@
 
 1. See YouTube Video:
 
-   [https://www.youtube.com/watch?v=8I-yTNHB0aw](https://www.youtube.com/watch?v=8I-yTNHB0aw)
+   [youtube.com/watch](https://www.youtube.com/watch?v=8I-yTNHB0aw)
 
 2. Clone this repository deploy in cloudflare pages.
 
@@ -85,6 +86,8 @@ Note: `UUID` is the uuid you want to set. pages.dev and worker.dev all of them m
 2. cpoy subscribe url link `https://edtunnel.pages.dev/bestip/uuid your set` to any clients(clash/v2rayN/v2rayNG) you want to use.
 
 3. done. if have any questions please join [@edtunnel](https://t.me/edtunnel)
+OR
+ [@F_NiREvil](https://t.me/F_NiREvil)
 
 ## Multiple port support (Optional)
 
@@ -122,3 +125,6 @@ resons: Outbound TCP sockets to Cloudflare IP ranges are temporarily blocked, pl
 
 frist, open your pages.dev domain `https://edtunnel.pages.dev/` in your browser, then you can see the following page:
 The path `/uuid your seetting` to get the clash config and vless:// link.
+
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
+Credits: [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)  &  [zizifn](https://github.com/zizifn/edgetunnel)
