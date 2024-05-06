@@ -16,7 +16,7 @@
 -   [تنظیمات UUID](#UUID-Setting)
     -   [مثال تنظیم UUID](#UUID-Setting-Example)
 -   [اشتراک vless لینک](#Subscribe-vless-link)
--   [مشترک شدن Cloudflare bestip](#Subscribe-Cloudflare-bestip)
+-   [اشتراک بهترین لینک Cloudflare](#Subscribe-Cloudflare-bestip-link)
 -   [پشتیبانی از چند پورت](#Multiple-port-support)
 -   [آی پی پروکسی](#ProxyIP)![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
@@ -65,7 +65,7 @@
     توجه: uuid1، uuid2، uuid3 با کاما از هم جدا می شوند`,`.
     وقتی چند uuid را تنظیم می کنید، می توانید استفاده کنید`https://edtunnel.pages.dev/uuid1`برای دریافت پیوند clash config و vless://.
 
-## اشتراک vless:// لینک (اختیاری)
+## اشتراک vless لینک
 
 1.  بازدید کنید`https://edtunnel.pages.dev/uuid your set`برای دریافت لینک اشتراک
 
@@ -79,7 +79,7 @@
     توجه داشته باشید:`uuid your set`uuid است که در محیط UUID یا تنظیم کرده اید`wrangler.toml`,`_worker.js`فایل.
     وقتی چند uuid را تنظیم می کنید، می توانید از آن استفاده کنید`https://edtunnel.pages.dev/sub/uuid1/?format=clash`برای دریافت محتوای اشتراک با`uuid1`مسیر و`clash`قالب. (فقط از اولین uuid در مجموعه uuid چندگانه پشتیبانی می کند)
 
-## پیوند Cloudflare bestip (IP خالص) مشترک شوید
+## اشتراک بهترین لینک Cloudflare
 
 1.  بازدید کنید`https://edtunnel.pages.dev/bestip/uuid your set`برای دریافت اطلاعات اشتراک
 
@@ -87,7 +87,7 @@
 
 3.  انجام شده. اگر سوالی دارید لطفا بپیوندید[@edtunnel](https://t.me/edtunnel)یا[@F_NiREvil](https://t.me/F_NiREvil)
 
-## پشتیبانی از چند پورت (اختیاری)
+## پشتیبانی از چند پورت
 
    <!-- let portArray_http = [80, 8080, 8880, 2052, 2086, 2095];
 	let portArray_https = [443, 8443, 2053, 2096, 2087, 2083]; -->
@@ -104,7 +104,7 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 
 اگر در صفحات cloudflare مستقر می شوید، پورت https پشتیبانی نمی شود. به سادگی چندین پورت را اضافه کنید و از لینک اشتراک استفاده کنید، محتوای اشتراک همه پورت های پشتیبانی شده از Cloudflare را برمی گرداند.
 
-## ProxyIP (اختیاری)
+## آی پی پروکسی
 
 1.  هنگام استقرار در صفحات cloudflare، می توانید پروکسی IP را در آن تنظیم کنید`wrangler.toml`فایل. نام متغیر است`PROXYIP`.
 
