@@ -11,12 +11,12 @@
 - [Deploy in pages.dev](#Deploy-in-pages.dev)
 - [Deploy in worker.dev](#Deploy-in-worker.dev)
 - [Lazy to deploy](#Lazy-to-deploy)
-- [UUID SettingL](#UUID-Setting)
+- [UUID Setting](#UUID-Setting)
   - [UUID Setting Example](#UUID-Setting-Example)
-- [subscribe vless link](#subscribe-vless-link)
-- [subscribe Cloudflare bestip](#subscribe-Cloudflare-bestip)
-- [multiple port support](#multiple-port-support)
-- [proxyIP](#proxyIP)
+- [Subscribe vless link](#Subscribe-vless-link)
+- [Subscribe Cloudflare bestip](#Subscribe-Cloudflare-bestip)
+- [Multiple port support](#Multiple-port-support)
+- [ProxyIP](#ProxyIP)
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)
 
 ## Deploy in pages.dev
@@ -64,7 +64,7 @@ Note: `UUID` is the uuid you want to set. pages.dev and worker.dev all of them m
    note: uuid1, uuid2, uuid3 are separated by commas`,`.
    when you set multiple uuid, you can use `https://edtunnel.pages.dev/uuid1` to get the clash config and vless:// link.
 
-## subscribe vless:// link (Optional)
+## Subscribe vless:// link (Optional)
 
 1. visit `https://edtunnel.pages.dev/uuid your set` to get the subscribe link.
 
@@ -78,7 +78,7 @@ Note: `UUID` is the uuid you want to set. pages.dev and worker.dev all of them m
    note: `uuid your set` is the uuid you set in UUID enviroment or `wrangler.toml`, `_worker.js` file.
    when you set multiple uuid, you can will use `https://edtunnel.pages.dev/sub/uuid1/?format=clash` to get the subscribe content with `uuid1` path and `clash` format.(only support first uuid in multiple uuid set)
 
-## subscribe Cloudflare bestip(pure ip) link
+## Subscribe Cloudflare bestip(pure ip) link
 
 1. visit `https://edtunnel.pages.dev/bestip/uuid your set` to get subscribe info.
 
@@ -86,7 +86,7 @@ Note: `UUID` is the uuid you want to set. pages.dev and worker.dev all of them m
 
 3. done. if have any questions please join [@edtunnel](https://t.me/edtunnel)
 
-## multiple port support (Optional)
+## Multiple port support (Optional)
 
    <!-- let portArray_http = [80, 8080, 8880, 2052, 2086, 2095];
 	let portArray_https = [443, 8443, 2053, 2096, 2087, 2083]; -->
@@ -103,7 +103,7 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 
 if you deploy in cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
 
-## proxyIP (Optional)
+## ProxyIP (Optional)
 
 1. When deploy in cloudflare pages, you can set proxyIP in `wrangler.toml` file. variable name is `PROXYIP`.
 
