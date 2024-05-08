@@ -730,7 +730,7 @@ ${วเลสSec}
 <b style='font-size: 15px;'>欢迎！这是生成 วเลส 协议的配置。如果您发现这个项目很好用，请查看我们的 GitHub 项目给我一个star：</b>
 <a href='https://github.com/NiREvil/Emotional-Damage' target='_blank'>Freedom - https://github.com/NiREvil/Emotional-Damage</a>
 <iframe src='https://ghbtns.com/github-btn.html?user=NiREvil&repo=Emotional-Damage&type=star&count=true&size=large' frameborder='0' scrolling='0' width='170' height='30' title='GitHub'></iframe>
-<a href='//${hostName}/sub/${userIDArray[0]}' target='_blank'>วเลส 节Sub link addresses</a>
+<a href='//${hostName}/sub/${userIDArray[0]}' target='_blank'>วเลส 节点订阅连接</a>
 <a href='clash://install-config?url=${encodeURIComponent(`https://${hostName}/sub/${userIDArray[0]}?format=clash`)}}' target='_blank'>Clash for Windows 节点订阅连接</a>
 <a href='${clash_link}' target='_blank'>Clash 节点订阅连接</a>
 <a href='${subbestip}' target='_blank'>优选IP自动节点订阅</a>
